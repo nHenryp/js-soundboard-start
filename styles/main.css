@@ -1,0 +1,32 @@
+h1{
+   font-style: unset; 
+   text-align: center;
+
+body{
+    display: flex;
+    background-color: rgba(148, 34, 34, 0.4);
+    align-items: center;
+    height: 100vh;
+}
+}
+.container{
+    display: flex;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: start;
+    gap: 15px;
+    align-items: start;
+
+    
+}
+.sound-button{
+    height:100px;
+    width: 100px;
+    background-color: rgb(21, 56, 109, .4);
+    border-radius: 25px;
+    
+    color: rgb(28, 146, 126);
+    text-align: center;
+    
+}
+    
+   
